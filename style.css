@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Great+Vibes&display=swap');
+body{
+    margin:0;
+    background-color: rgb(226, 189, 67);
+    overflow-y: hidden;
+}
+
+.listContainer{
+    width:80vw;
+    height:100vh;
+    overflow: auto;
+    border:0px solid;
+    position: absolute;
+    left:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    /*font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;*/
+    font-family: 'Great Vibes', cursive;
+box-shadow:
+inset 0 -3em 3em rgba(0,0,0,0.1),
+      0 0  0 2px rgb(255,255,255),
+      0.3em 0.3em 1em rgb(0, 0, 0);
+
+      -ms-overflow-style: none;  
+      scrollbar-width: none;  
+}
+.listContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+#topText{
+    font-size: 430%;
+}
+.inputContainer{
+    width:100%;
+    height: 10%;
+    
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+#input{
+    width:50%;
+    border: 0.9px solid rgb(226, 189, 67);
+}
